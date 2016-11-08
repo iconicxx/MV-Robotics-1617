@@ -1,0 +1,143 @@
+<html>
+<head>
+  <title>Metea Valley Robotics</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/roboto.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue_grey-amber.min.css" />
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</home>
+
+<body>
+<style>
+body {
+  background: ##F9F9F9;
+
+}
+
+h1,h2,h3,h4,h5 {
+  color: black;
+}
+
+a {
+  color: #333;
+}
+
+.mdl-textfield__input {
+  color: white;
+  border: none;
+  border-bottom: 1px solid #A8A8A8;
+}
+
+.mdl-textfield__label {
+  color: #A8A8A8;
+}
+
+.mdl-button {
+  text-transform: none;
+}
+
+.mdl-button.mdl-button--colored {
+  background: #ffd800;
+  color: #333;
+}
+
+.mdl-layout__header {
+  background: #0F0F0F;
+  color: #333;
+  height: 50px;
+}
+
+.mdl-layout__drawer {
+  background: #292929;
+  color: white;
+  border-right: 1px solid #191919;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: white;
+}
+.mdl-navigation__link{
+	font-size:110%;
+	font-weight:bold;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background: #363636;
+}
+#button{
+background: #393939;
+color: #B2B2B2;
+}
+#divider{
+padding-left:10px;
+}
+#fa{
+color: white;
+}
+#topdivider
+{
+padding-top:15px;
+}
+#largeImg{
+height: 8.5vmax;
+width: 40vmax;
+}
+#content{
+padding-left:10px;
+z-index: -2; position:relative;
+}
+.footer {
+background-color: #e2e2e2;
+height: 7%;
+width: 100%;
+}
+.meteaText {
+padding-right:25vw;
+text-align: center;
+font-size: 200%;
+}
+</style>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+              mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+		<font class =meteaText color = "white">Here is where a logo would be.</font>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+			<a id = "button" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-transform: none;" href=about.html><span id="fa" class="fa fa-info-circle"></span> About</a>
+			<div id = "divider"></div>
+           <a id = "button" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-transform: none;" href=apply.html><span id="fa" class="fa fa-user-plus"></span> Apply</a>
+		   <div id = "divider"></div>
+          <a  id = "button" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="text-transform: none;" href=blog.html><span id="fa" class="fa fa-comment-o"></span> Blog</a>
+        </nav>
+
+      </div>
+	  <div style="border-bottom: thick solid #ffd800;"></div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">	<div id = "topdivider"></div><img id = "img" src = "Images/mvhsLogo.png" height = 108px width = 120px></span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="apply.html">Apply</a>
+		<a class="mdl-navigation__link" href="about.html">About</a>
+		<a class="mdl-navigation__link" href="blog.html">Blog</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div id = "content" class="page-content">
+        <h4>Here is some placeholder text.</h4>
+		  </div>
+		  	  <div class="footer" style="position: fixed; bottom: 0; padding-left: -10;" >
+      <span class="navbar-text">GO GO MUSTANGS!</span>
+	  <span style="float: right; text-align: right;">
+	  </div>
+    </main>
+
+</body>
